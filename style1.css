@@ -1,0 +1,162 @@
+    body {
+      background-color: #000; 
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      color: rgba(255, 255, 255, 0.9); 
+      line-height: 1.8;
+      letter-spacing: 0.5px;
+      word-spacing: 3px;
+    }
+
+    .header {
+      height: 60px;
+      position: fixed;
+      padding: 10px 20px;
+      display: inline;
+      right: 2px;
+      left: 2px;
+      align-items: center;
+      background-color: black;
+      margin-right: 2px;
+    }
+
+    .header button {
+      margin: 5px 10px;
+      background-color: #000;
+      color: silver;
+      border: none;
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 6px;
+      padding: 8px 14px;
+      transition: all 0.3s ease;
+    }
+
+    .header button:hover {
+      border: 2px solid #f5f5f5;
+      opacity: 0.7;
+      cursor: pointer;
+    }
+
+    .header span {
+      margin-left: auto;
+    }
+
+    h1 {
+      margin: 40px 0;
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      font-style: italic;
+      font-weight: 700;
+      text-align: center;
+      color: rgb(224, 249, 255); 
+      text-shadow: 3px 3px 6px rgba(200, 200, 200, 0.6);
+      letter-spacing: 2px;
+    }
+
+    .body {
+      display: grid;
+      grid-template-columns: 350px 1fr;
+      margin: 20px 40px;
+      gap: 20px;
+    }
+
+    .main{
+        padding-top:20px;
+    }
+
+    .profile {
+      width: 300px;
+      border: 3px solid #b0e0e6;
+      border-radius: 150px;
+      margin-top: -15px;
+    }
+
+    .body1 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: wheat;
+      font-size: 18px;
+      font-style: italic;
+      line-height: 2em;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .communication {
+      margin: 50px 70px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .communication button {
+      border: none;
+      background-color: black;
+      color: silver;
+      font-weight: 600;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      padding: 15px;
+      width: 100%;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+    }
+
+    .communication button:hover {
+      border: 2px solid white;
+      opacity: 0.6;
+      cursor: pointer;
+    }
+
+    h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #ee4477;
+      text-align: center;
+      margin: 50px 0 30px 0;
+      text-shadow: 2px 2px 5px rgba(255, 100, 150, 0.4);
+    }
+
+    .footer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin: 0 50px 40px 50px;
+      gap: 15px;
+    }
+
+    .footer button {
+      height: 50px;
+      background-color: black;
+      color: silver;
+      border: none;
+      border-radius: 25px;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      font-size: medium;
+      transition: 0.3s ease;
+    }
+
+    .footer button:hover {
+      border: 2px solid #fff;
+      opacity: 0.6;
+      cursor: pointer;
+    }
+
+    .contactMe{
+      display:grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    .contactMe input{
+      min-height: 20px;
+      background-color: #000;
+      border: none;
+    }
+
+    

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inline, Internal & External CSS Example</title>
+    <!-- External CSS link -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Internal CSS -->
+    <style>
+        .internal-heading {
+            color: white;
+            background-color: darkblue;
+            font-size: 28px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .internal-para {
+            color: black;
+            background-color: lightgray;
+            font-size: 18px;
+            font-family: Verdana, sans-serif;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="color: red; background-color: yellow; font-size: 30px; font-family: 'Courier New', monospace; text-align: center;">
+        This is Inline CSS
+    </h1>
+
+    <h2 class="internal-heading">This is Internal CSS</h2>
+    <p class="internal-para">Internal CSS is applied using the style tag inside the head section.</p>
+
+    <h2 class="external-heading">This is External CSS</h2>
+    <p class="external-para">External CSS is applied using a separate .css file linked to this HTML page.</p>
+</body>
+</html>

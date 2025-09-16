@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #000; /* HEX */
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      color: rgba(255, 255, 255, 0.9); /* RGBA */
+      line-height: 1.8;
+      letter-spacing: 0.5px;
+      word-spacing: 3px;
+    }
+
+    /* HEADER */
+    .header {
+      height: 60px;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .header button {
+      margin: 5px 10px;
+      background-color: #000;
+      color: silver;
+      border: none;
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 6px;
+      padding: 8px 14px;
+      transition: all 0.3s ease;
+    }
+
+    .header button:hover {
+      border: 2px solid #f5f5f5;
+      opacity: 0.7;
+      cursor: pointer;
+    }
+
+    .header span {
+      margin-left: auto;
+    }
+
+    /* MAIN HEADING */
+    h1 {
+      margin: 40px 0;
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      font-style: italic;
+      font-weight: 700;
+      text-align: center;
+      color: rgb(224, 249, 255); /* RGB */
+      text-shadow: 3px 3px 6px rgba(200, 200, 200, 0.6);
+      letter-spacing: 2px;
+    }
+
+    /* BODY CONTENT */
+    .body {
+      display: grid;
+      grid-template-columns: 350px 1fr;
+      margin: 20px 40px;
+      gap: 20px;
+    }
+
+    .profile {
+      width: 300px;
+      border: 3px solid #b0e0e6;
+      border-radius: 150px;
+      margin-top: -15px;
+    }
+
+    .body1 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: wheat;
+      font-size: 18px;
+      font-style: italic;
+      line-height: 2em;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    /* COMMUNICATION SECTION */
+    .communication {
+      margin: 50px 70px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .communication button {
+      border: none;
+      background-color: black;
+      color: silver;
+      font-weight: 600;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      padding: 15px;
+      width: 100%;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+    }
+
+    .communication button:hover {
+      border: 2px solid white;
+      opacity: 0.6;
+      cursor: pointer;
+    }
+
+    /* FOOTER */
+    h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #ee4477;
+      text-align: center;
+      margin: 50px 0 30px 0;
+      text-shadow: 2px 2px 5px rgba(255, 100, 150, 0.4);
+    }
+
+    .footer {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin: 0 50px 40px 50px;
+      gap: 15px;
+    }
+
+    .footer button {
+      height: 50px;
+      background-color: black;
+      color: silver;
+      border: none;
+      border-radius: 25px;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      font-size: medium;
+      transition: 0.3s ease;
+    }
+
+    .footer button:hover {
+      border: 2px solid #fff;
+      opacity: 0.6;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <button>N.Vardhan</button>
+    <button>Home</button>
+    <button>About</button>
+    <button>Services</button>
+    <span class="extra"><button>Hire me</button></span>
+  </header>
+
+  <main class="main">
+    <h1>J Nandivardhan</h1>
+    <div class="body">
+      <div>
+        <img src="WhatsApp Image 2025-08-03 at 10.17.12 AM.jpeg" alt="My Photo" class="profile">
+      </div>
+      <div class="body1">
+        <p>Hi, I'm Jinka Nandivardhan — a passionate web developer focused on building clean, responsive, and user-centric websites. I specialize in front-end technologies like HTML, CSS, JavaScript, and React.js, and I enjoy turning design concepts into interactive digital experiences.</p>
+        <p>Whether it's a personal project or a client-focused solution, I approach every task with attention to detail and a problem-solving mindset. I'm always learning new tools and techniques to stay current in this fast-evolving field and love building things that not only look good but also work seamlessly across all devices.</p>
+      </div>
+    </div>
+
+    <div class="communication">
+      <div><button>Let's Talk</button></div>
+      <div><button>How I Work</button></div>
+      <div><a href="resume.html"><button>My Resume</button></a></div>
+    </div>
+
+    <h3>Check Out Me</h3>
+    <div class="footer">
+      <button>Dribbble</button>
+      <button>LinkedIn</button>
+      <button>Instagram</button>
+      <button>X</button>
+    </div>
+  </main>
+</body>
+</html>
